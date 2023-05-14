@@ -3,10 +3,12 @@
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", sans-serif;
   --default-font-family: "Poppins", sans-serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   font-family: var(--default-font-family);
+  margin: 100px 0;
 }
 
 h1,
@@ -42,7 +44,7 @@ p {
 
 .hero p {
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0;
   color: #272142;
 }
@@ -58,6 +60,7 @@ p {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
+  box-shadow: var(--box-shadow);
   color: white;
   font-size: 18px;
   font-weight: 500;
