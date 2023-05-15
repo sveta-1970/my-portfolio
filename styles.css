@@ -8,7 +8,6 @@
 
 body {
   font-family: var(--default-font-family);
-  margin: 100px 0;
 }
 
 h1,
@@ -23,7 +22,7 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 88px;
 }
 
 h2 {
@@ -34,6 +33,10 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
+}
+
+img {
+  box-shadow: var(--box-shadow);
 }
 
 .hero {
@@ -91,6 +94,9 @@ p {
 
   .hero {
     padding: 80px 20px;
+  }
+  .hero p {
+    margin-top: 40px;
   }
 
   .project-description {
