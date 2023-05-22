@@ -127,6 +127,7 @@ div.col {
 
 img.certificate {
   max-width: 250px;
+  margin: 5px;
 }
 
 .avatar {
@@ -136,6 +137,8 @@ img.certificate {
 
 nav {
   padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav ul {
@@ -210,6 +213,14 @@ footer .social-links a:hover {
     font-size: 42px;
   }
 
+  h3 {
+    font-size: 26px;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
   .hero {
     padding: 80px 20px;
   }
@@ -217,7 +228,28 @@ footer .social-links a:hover {
     margin-top: 40px;
   }
 
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
+
+  .content img {
+    margin-top: 30px;
+  }
+
+  .content h1 {
+    font-size: 44px;
+  }
+
+  .content h2 {
+    margin: 10px 0;
+  }
+
   .project-description {
     text-align: center;
+  }
+
+  footer .contact-box {
+    padding: 30px;
   }
 }
