@@ -91,6 +91,12 @@ div.col {
   font-size: 16px;
 }
 
+p.about-me {
+  background-color: var(--secondary-color);
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .btn:hover {
   border: 1px solid var(--branding-color);
 }
